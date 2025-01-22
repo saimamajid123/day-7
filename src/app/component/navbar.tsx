@@ -1,9 +1,17 @@
 import React from "react";
+import Image from "next/image";
+import c_logo from "../images/Logo.png"
 
-const Header = () => {
-  return (
-    <div className="bg-gray-900">
+
+
+
+const Header =() => (
+    <div className="bg-[#272343]">
       {/* Top Bar */}
+      <div className="text-center text-sm text-white py-1">
+        ✓ Free Shipping On All Orders Over $50
+      </div>
+             <div className="h-[84px] bg-[#F0F2F3]"> {/* Top Bar */}
       <div className="text-center text-sm text-white py-1">
         ✓ Free Shipping On All Orders Over $50
       </div>
@@ -12,7 +20,15 @@ const Header = () => {
       <div className="bg-white flex justify-between items-center px-8 py-4 shadow-md">
         {/* Logo Section */}
         <div className="flex items-center space-x-2">
-          <div className="text-2xl text-teal-600 font-bold">🛋️ Comforty</div>
+          <div className="text-2xl text-teal-600 font-bold">
+
+                  {/* company Logo */}
+
+          <div className="flex flex-col items-left mt-0 py-10">
+            <Image src= {c_logo} alt="Company Logo" width={168} height={40} ></Image>
+            </div>
+            
+            </div>
         </div>
 
         {/* Navigation Links */}
@@ -46,7 +62,8 @@ const Header = () => {
         </div>
       </div>
     </div>
-  );
-};
+    </div>
+)
+
 
 export default Header;

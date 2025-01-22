@@ -1,7 +1,6 @@
-import React from "react";
+import React from "react"
 
-const HomePage = () => {
-  return (
+const HomePage = () => (
     <div>
       {/* About Us Section */}
       <section className="bg-gray-100 py-12">
@@ -122,7 +121,7 @@ const HomePage = () => {
         </div>
       </footer>
     </div>
-  );
-};
+)
+
 
 export default HomePage;
