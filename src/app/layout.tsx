@@ -22,7 +22,7 @@ import "./globals.css";
 import Header from "./component/navbar";
 import Footer from "./component/Boa"
 import Script from "next/script";
-import Link from "next/link";
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",

@@ -1,5 +1,5 @@
 
-import { FaPlus } from "react-icons/fa6";
+
 export default function FAQSection() {
   const faqs = [
     {

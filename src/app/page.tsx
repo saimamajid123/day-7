@@ -1,5 +1,4 @@
-import Header from "./component/navbar";
-import Image from "next/image";
+
 import HeroSection from "./component/Hero";
 import ProductGrid from "./component/picure";
 import Newstey from "./component/Newstey";

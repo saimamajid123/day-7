@@ -2,7 +2,7 @@
 import Image from 'next/image';
 
 import React from 'react';
-import c_logo from "../images/Logo.png";
+
 
 
 export default function Product() {
