@@ -1,6 +1,7 @@
 import Image from 'next/image';
 
 // Fetch product data based on the product ID
+//@typescript-eslint/no-explicit-any
 export async function generateMetadata({ params }: any) {
   try {
     const res = await fetch(`http://localhost:3000/api/route/${params.id}`);
@@ -24,7 +25,7 @@ export async function generateMetadata({ params }: any) {
     };
   }
 }
-
+//@typescript-eslint/no-explicit-any
 export default async function ProductDetail({ params }: any) {
   try {
     const res = await fetch(`http://localhost:3000/api/route/${params.id}`);

@@ -1,5 +1,5 @@
 
-
+//@typescript-eslint/no-explicit-any
   export async function handler(req: any, res: any) {
     const { id } = req.query;
   
