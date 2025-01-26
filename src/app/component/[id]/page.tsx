@@ -43,10 +43,10 @@ export default async function ProductDetail({ params }: any) {
           <div className="flex flex-col md:flex-row">
             <div className="flex-1">
               <Image
-                src={product.image}
+                // src={product.image}
                 alt={product.name}
-                width={500}
-                height={500}
+                width={320}
+                height={320}
                 className="w-full h-96 object-cover"
               />
             </div>

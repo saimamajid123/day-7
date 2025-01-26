@@ -18,7 +18,7 @@
                 <div className="space-y-4">
                   {/* Address */}
                   <div className="flex items-start space-x-4">
-                  <Image src={'/Vector (4).png'} alt='' width={20} height={20}/>
+                  <Image src={'/Vector (4).png'} alt='' width={20} height={20}/> 
                     <div>
                       <h4 className="font-semibold text-gray-800">Address</h4>
                       <p className="text-gray-600">236 5th SE Avenue, New York NY10000, United States</p>
@@ -26,7 +26,7 @@
                   </div>
                   {/* Phone */}
                   <div className="flex items-start space-x-4">
-                  <Image src={'/Vector (5).png'} alt='' width={20} height={20}/>
+                  <Image src={'/Vector (5).png'} alt='' width={20} height={20}/> 
                     <div>
                       <h4 className="font-semibold text-gray-800">Phone</h4>
                       <p className="text-gray-600">Mobile: +(84) 546-6789</p>

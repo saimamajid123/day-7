@@ -8,19 +8,20 @@ import React from 'react';
 export default function Product() {
   return (
     
-    <div className="flex items-center justify-center h-auto ">
+    <div className="flex items-center justify-center h-auto p-8 ">
       <div className="flex max-w-2x1 bg-white py-12">
         <div className="relative">
         <div className="flex  items-right mt-5 "></div>
           <Image
-            src = {"/Image (1).jpg"}
+            src ="/Image (1).jpg"
             alt="Library Stool Chair"
             width={900}
             height={900}
         
           />
         </div>
-        <div className="p-6">
+      
+        
         <h2 className="text-4xl font-bold text-gray-800">Library Stool</h2>
         <h2 className="text-4xl font-bold text-gray-800">Chair</h2>
           <p className="text-sm text-white mt-4 rounded-full px-5 py-1 bg-[#029FAE] w-[40%]">$20.00 USD</p>
@@ -37,7 +38,7 @@ export default function Product() {
           </div>
         </div>
       </div>
-    </div>
+    
   );
 }
 

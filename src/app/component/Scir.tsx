@@ -33,13 +33,14 @@ const Boxes = () => {
             key={index}
             className="flex items-start bg-[#F9F9F9] w-[309.45px] h-[244px] p-4 rounded-lg shadow-md"
           >
-            <Image
-              src={box.image}
+            {box.image && (            <Image
+               src={box.image}
               alt={`Image for ${box.heading}`}
               width={100}
               height={100}
               className="rounded-full mr-4"
             />
+            )}
             <div>
               <h2 className="text-[#007580] text-lg font-bold mb-2">{box.heading}</h2>
               <p className="text-[#007580]">{box.paragraph}</p>

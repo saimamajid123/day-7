@@ -11,7 +11,7 @@ export default function Populer () {
         {/* First Image */}
         <div className="flex flex-col items-start">
           <img
-            src="/Product Card.png"
+             src="/Product Card.png"
             alt="image"
             className="h-[380px] w-[630px] object-cover rounded-lg"
           />
@@ -24,7 +24,7 @@ export default function Populer () {
         {/* Second Image */}
         <div className="flex flex-col items-start">
           <img
-            src="/Product Card (2).png"
+             src="/Product Card (2).png"
             alt="Image "
             className="h-[380px] w-[305px] object-cover rounded-lg"
           />

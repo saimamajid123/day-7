@@ -29,7 +29,7 @@ export default function ProductGrid() {
             <Link href={`/component/${product.id}`}> {/* Add Link to navigate to product details page */}
               <div className="relative">
                 <Image
-                  src={product.image}
+                   src={product.image}
                   alt={product.name}
                   width={300}
                   height={320}

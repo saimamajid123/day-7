@@ -25,7 +25,7 @@ const Header =() => (
                   {/* company Logo */}
 
           <div className="flex flex-col items-left mt-0 py-10">
-            <Image src= {c_logo} alt="Company Logo" width={168} height={40} ></Image>
+            <Image src= {c_logo} alt="Company Logo" width={168} height={40} ></Image> 
             </div>
             
             </div>

@@ -15,7 +15,7 @@ export default function FeaturedProducts () {
         {/* Image 1 */}
         <div className="relative w-[200px] h-[250px] bg-white rounded-lg overflow-hidden">
           <img
-            src="/Group 116.png"
+             src="/Group 116.png"
             alt="Image "
             className="w-full h-full object-cover"
           />
@@ -24,7 +24,7 @@ export default function FeaturedProducts () {
         {/* Image 2 */}
         <div className="relative w-[200px] h-[250px] bg-white rounded-lg overflow-hidden">
           <img
-            src="/Group 115.png"
+             src="/Group 115.png"
             alt="Image "
             className="w-full h-full object-cover"
           />
@@ -33,7 +33,7 @@ export default function FeaturedProducts () {
         {/* Image 3 */}
         <div className="relative w-[200px] h-[250px] bg-white rounded-lg overflow-hidden">
           <img
-            src="/Group 114.png"
+             src="/Group 114.png"
             alt="Image 3"
             className="w-full h-full object-cover"
           />
@@ -42,7 +42,7 @@ export default function FeaturedProducts () {
         {/* Image 4 */}
         <div className="relative w-[200px] h-[250px] bg-white rounded-lg overflow-hidden">
           <img
-            src="/Group 113.png"
+         src="/Group 113.png"
             alt="Image 4"
             className="w-full h-full object-cover"
           />

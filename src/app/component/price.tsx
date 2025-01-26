@@ -15,7 +15,7 @@ const CartPage = () => {
           <div className="flex items-center justify-between border-b pb-4 mb-4">
             <div className="flex items-center gap-4">
               <img
-                src="/Image (38).png" // replace with actual image
+                 src="/Image (38).png" // replace with actual image
                 alt="Library Stool Chair"
                 height={150}
                 width={150}
@@ -24,7 +24,7 @@ const CartPage = () => {
 
               <div>
                 <Image
-                src="/Frame (2).png"
+                 src="/Frame (2).png"
                 alt="picure"
                 height={24}
                 width={24}
@@ -34,7 +34,7 @@ const CartPage = () => {
 
               <div>
                 <Image
-                src="/Frame (3).png"
+                 src="/Frame (3).png"
                 alt="picure"
                 height={24}
                 width={24}
@@ -55,7 +55,7 @@ const CartPage = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
               <img
-                src="/Image (40).png" // replace with actual image
+                 src="/Image (40).png" // replace with actual image
                 alt="Library Stool Chair"
                 height={150}
                 width={150}
@@ -73,7 +73,7 @@ const CartPage = () => {
 
             <div>
               <Image
-              src ="/Frame (3).png"
+               src ="/Frame (3).png"
               alt="picur"
               height={24}
               width={24}

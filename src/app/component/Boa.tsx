@@ -29,7 +29,7 @@ export default function Footer() {
                                 {/* company Logo */}
 
           <div className="flex flex-col items-left mt-0 py-10">
-            <Image src= {c_logo} alt="Company Logo" width={168} height={40} ></Image>
+           <Image src= {c_logo} alt="Company Logo" width={168} height={40} ></Image> 
             </div>
 
               <h3 className="font-semibold text-lg mb-4">Comforty</h3>
@@ -47,7 +47,7 @@ export default function Footer() {
 
           <a href="#" className="text-gray-500 hover:text-gray-700 transition">
           <div className="flex flex-col items-left mt-0 py-10">
-            <Image src= {f_logo} alt="facebook Logo" width={38} height={38} ></Image>
+           {/* // <Image src= {f_logo} alt="facebook Logo" width={38} height={38} ></Image> */}
             </div>
             <i className="fab fa-facebook-f"></i>
             </a>
@@ -55,7 +55,7 @@ export default function Footer() {
            {/* Twiter Logo */}
             <a href="#" className="text-gray-500 hover:text-gray-700">
             <div className="flex flex-col items-left mt-0 py-10">
-            <Image src= {t_logo} alt="twiter Logo" width={38} height={38} ></Image>
+           {/* // <Image src= {t_logo} alt="twiter Logo" width={38} height={38} ></Image> */}
             </div>
             <i className="fab fa-twitter"></i>
             </a>
@@ -63,7 +63,7 @@ export default function Footer() {
             {/* Instagram Logo */}
             <a href="#" className="text-gray-500 hover:text-gray-700">
             <div className="flex flex-col items-left mt-0 py-10">
-            <Image src= {I_logo} alt="instagram Logo" width={38} height={38} ></Image>
+           {/* // <Image src= {I_logo} alt="instagram Logo" width={38} height={38} ></Image> */}
             </div>
             <i className="fab fa-instagram"></i>
             </a>
@@ -71,7 +71,7 @@ export default function Footer() {
             {/* Pinterrest Logo */}
             <a href="#" className="text-gray-500 hover:text-gray-700">
             <div className="flex flex-col items-left mt-0 py-10">
-            <Image src= {P_logo} alt="Pinterrest Logo" width={38} height={38} ></Image>
+           {/* // <Image src= {P_logo} alt="Pinterrest Logo" width={38} height={38} ></Image> */}
             </div>
             <i className="fab fa-pinterrest"></i>
             </a>
@@ -79,7 +79,7 @@ export default function Footer() {
             {/* Youtube Logo */}
             <a href="#" className="text-gray-500 hover:text-gray-700">
             <div className="flex flex-col items-left mt-0 py-10">
-            <Image src= {y_logo} alt="Pinterrest Logo" width={38} height={38} ></Image>
+           {/* // <Image src= {y_logo} alt="Pinterrest Logo" width={38} height={38} ></Image> */}
             </div>
             <i className="fab fa-pinterrest"></i>
             </a>

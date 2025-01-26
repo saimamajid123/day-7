@@ -17,7 +17,7 @@ export default function Newstey() {
         {/* Image 1 */}
         <div className="w-32 h-32 bg-gray-200 rounded-md overflow-hidden shadow-lg">
           <Image
-            src="/image (27).png" // Replace with your actual image URL
+             src="/image (27).png" // Replace with your actual image URL
             alt="Image "
             width={200}
             height={200}
@@ -28,7 +28,7 @@ export default function Newstey() {
         {/* Image 2 */}
         <div className="w-32 h-32 bg-gray-200 rounded-md overflow-hidden shadow-lg">
           <Image
-            src="/Image (40).png" // Replace with your actual image URL
+             src="/Image (40).png" // Replace with your actual image URL
             alt="Image "
             width={200}
             height={200}
@@ -39,7 +39,7 @@ export default function Newstey() {
         {/* Image 3 */}
         <div className="w-32 h-32 bg-gray-200 rounded-md overflow-hidden shadow-lg">
           <Image
-            src="/Image (41).png" // Replace with your actual image URL
+             src="/Image (41).png" // Replace with your actual image URL
             alt="Image "
             width={186}
             height={186}
@@ -61,7 +61,7 @@ export default function Newstey() {
         {/* Image 5 */}
         <div className="w-32 h-32 bg-gray-200 rounded-md overflow-hidden shadow-lg">
           <Image
-            src="/Image (43).png" // Replace with your actual image URL
+             src="/Image (43).png" // Replace with your actual image URL
             alt="Image "
             width={186}
             height={186}
@@ -72,7 +72,7 @@ export default function Newstey() {
         {/* Image 6 */}
         <div className="w-32 h-32 bg-gray-200 rounded-md overflow-hidden shadow-lg">
           <Image
-            src="/card (1).png"
+             src="/card (1).png"
             alt="Image"
             width={200}
             height={200}

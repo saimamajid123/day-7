@@ -27,7 +27,7 @@
             {/* Image */}
             <div className="w-48 h-48">
               <img
-                src="/image Block (1).png"
+                 src="/image Block (1).png"
                 alt="Example"
                 className="width-130 height-110"
               />

@@ -18,20 +18,20 @@ import Populer from "./component/Populer";
 
 export default function Home() {
   return (
-<div>
- <HeroSection/>
- <ProductGrid/>
- < Newstey/>
- < Product/>
- <FeaturedProducts />
- <CartPage/>
- <Contact/>
- <Contow/>
- <FAQSection/>
- < StyledBox/>
- <Boxes/>
- < Populer/>
- 
-</div>
+    <div>
+      <HeroSection />
+      <ProductGrid />
+      < Newstey />
+      < Product />
+      <FeaturedProducts />
+      <CartPage />
+      <Contact />
+      <Contow />
+      <FAQSection />
+      < StyledBox />
+      <Boxes />
+      < Populer />
+
+    </div>
   );
 };

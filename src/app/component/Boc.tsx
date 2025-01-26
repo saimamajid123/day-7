@@ -67,7 +67,7 @@ const HomePage = () => (
                 className="bg-white rounded-md overflow-hidden shadow hover:shadow-lg transition"
               >
                 <img
-                  src={product.image}
+                 src={product.image}
                   alt={product.title}
                   className="w-full h-60 object-cover"
                 />

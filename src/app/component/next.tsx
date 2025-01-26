@@ -16,7 +16,7 @@ const StyledBox = () => {
         {/* Image */}
         <div className="flex-shrink-0">
           <Image
-            src="/Image Block (1).png" // Replace with your image path
+             src="/Image Block (1).png" // Replace with your image path
             alt="Example"
             width={619} // Adjust width as needed
             height={478} // Adjust height as needed

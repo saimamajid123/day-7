@@ -93,7 +93,7 @@ export default function RootLayout({
               let t = document.getElementsByTagName("head")[0],
                 e = document.querySelector("#snipcart"),
                 i = document.querySelector(
-                  \src[src^="\${window.SnipcartSettings.protocol}://\${window.SnipcartSettings.domain}"][src$="snipcart.js"]\
+                //  \src[src^="\${window.SnipcartSettings.protocol}://\${window.SnipcartSettings.domain}"][src$="snipcart.js"]\//
                 ),
                 n = document.querySelector(
                   \link[href^="\${window.SnipcartSettings.protocol}://\${window.SnipcartSettings.domain}"][href$="snipcart.css"]\
@@ -106,7 +106,7 @@ export default function RootLayout({
                 v(e),
                 i ||
                   ((i = document.createElement("script")),
-                  (i.src = \`\${window.SnipcartSettings.protocol}://\${window.SnipcartSettings.domain}/themes/v\${window.SnipcartSettings.version}/default/snipcart.js\`),
+                 (i.src = \`\${window.SnipcartSettings.protocol}://\${window.SnipcartSettings.domain}/themes/v\${window.SnipcartSettings.version}/default/snipcart.js\`),
                   (i.async = true),
                   t.appendChild(i)),
                 n ||

@@ -13,7 +13,7 @@ export default function Pepep() {
         
         <div>
             <Image
-            src="/image (35).png"
+             src="/image (35).png"
             alt="image"
             height={200}
             width={200}
@@ -23,7 +23,7 @@ export default function Pepep() {
 
         <div>
             <Image
-            src="/image (27).png"
+             src="/image (27).png"
             alt="image"
             height={200}
             width={200}
@@ -43,7 +43,7 @@ export default function Pepep() {
 
         <div>
             <Image
-            src="/image (4).jpg"
+             src="/image (4).jpg"
             alt="image"
             height={200}
             width={200}
@@ -53,7 +53,7 @@ export default function Pepep() {
 
         <div>
             <Image
-            src="/image (38).png"
+             src="/image (38).png"
             alt="image"
             height={200}
             width={200}
@@ -63,7 +63,7 @@ export default function Pepep() {
 
         <div>
             <Image
-            src="/card (1).png"
+             src="/card (1).png"
             alt="image"
             height={200}
             width={200}

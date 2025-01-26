@@ -10,7 +10,7 @@ export default function Contow() {
         {/* Feature 1 */}
         <div className="flex items-left space-x-4">
           <Image
-          src="/Vector (7).png"
+           src="/Vector (7).png"
           alt="image"
           width ={60}
           height = {60}
@@ -37,7 +37,7 @@ export default function Contow() {
         {/* Feature 3 */}
         <div className="flex items-right space-x-4">
         <Image
-          src="/customer-support (3).png"
+             src="/customer-support (3).png"
           alt=""
           width ={60}
           height = {60}
