@@ -21,7 +21,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "./component/navbar";
 import Footer from "./component/Boa"
-import Script from "next/script";
+import Script from "next/script"
 
 
 const geistSans = localFont({

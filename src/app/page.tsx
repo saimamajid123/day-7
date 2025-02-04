@@ -16,6 +16,9 @@ import Populer from "./component/Populer";
 
 
 
+
+
+
 export default function Home() {
   return (
     <div>

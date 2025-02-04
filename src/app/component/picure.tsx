@@ -51,11 +51,11 @@ export default function ProductGrid() {
               <p className="text-gray-600 mb-4">{product.price}</p>
               <div className="flex justify-between items-center">
                 <button className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 snipcart-add-item"
-                data-item-id={product.id}
-                data-item-name={product.name}
-                data-item-price={product.price}
-                data-item-url={product.id}
-                data-item-image={product.image}
+                data-item-id="12"
+                data-item-name="Library Stool Chair"
+                data-item-price="50"
+                data-item-url="www.google.com"
+                data-item-image="/Group 114.png"
                 >
                   Add to Cart
                 </button>
